@@ -12,7 +12,7 @@ if __name__ == "__main__" :
     )
     MoTech = pyrogram.Client(
         "CaptionBot",
-        bot_token=Config.MRKY_BOT_TOKEN,
+        bot_token=Config.MRKT_BOT_TOKEN,
         api_id=Config.API_ID,
         api_hash=Config.API_HASH,
         plugins=plugins,
