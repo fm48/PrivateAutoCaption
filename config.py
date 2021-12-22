@@ -1,4 +1,4 @@
-# <C> MoTechYT
+# <C> MrktTech
 
 
 import os
@@ -9,5 +9,5 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "")
     CAPTION = os.environ.get("CAPTION", "@Mrkt_Tech @Mrkt_Tech_Group")
     BUTTON_TEXT = os.environ.get("BUTTON", "🔻Join Channel🔻")
-    URL_LINK = os.environ.get("LINK", "T.ME/MO_TECH_YT")
+    URL_LINK = os.environ.get("LINK", "T.ME/MRKT_TECH")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
