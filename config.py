@@ -4,7 +4,7 @@
 import os
 
 class Config(object):
-    MRKT_BOT_TOKEN = os.environ.get("Mrkt_BOT_TOKEN", "")
+    MRKT_BOT_TOKEN = os.environ.get("MRKT_BOT_TOKEN", "")
     API_ID = int(os.environ.get("APP_ID", 12345))
     API_HASH = os.environ.get("API_HASH", "")
     CAPTION = os.environ.get("CAPTION", "@Mrkt_Tech @Mrkt_Tech_Group")
