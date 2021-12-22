@@ -11,13 +11,13 @@ USERNAME=Config.BOT_USERNAME
 
 
 # start_Msg, help_msg, about_msg
-# Team Mo Tect
+# Team Mrkt Tech
 MRKT = "@MRKT_Tech"
 
 
 @Client.on_message(filters.private & filters.command("start"))
 async def start_meg(client, update):
-    text = f"""<b> 👋Hello {update.from_user.mention}\n\nI am an AutoCaption bot\n\nAll you have to do is add me to your channel and I will show you my power\n\nFor more info check help Button\n\n {MT}</b>"""
+    text = f"""<b> 👋Hello {update.from_user.mention}\n\nI am an AutoCaption bot\n\nAll you have to do is add me to your channel and I will show you my power\n\nFor more info check help Button\n\n {MRKT}</b>"""
     reply_markup =  InlineKeyboardMarkup( [[
         InlineKeyboardButton("help↗️", callback_data="heroku"),
         InlineKeyboardButton("🗣️Group", url="t.me/Mrkt_tech_Group"),
