@@ -1,16 +1,16 @@
 {
-    "name": "MT AutoCaptionBot",
-    "description": "Auto Caption BoT @Pr0fess0r-99",
-    "logo": "https://telegra.ph/file/a2682b1cb49bf770baecf.jpg",
+    "name": "MRKT AutoCaptionBot",
+    "description": "Auto Caption BoT @Rafeeq-99",
+    "logo": "https://telegra.ph/file/e9014eadda14d1c04723e.jpg",
     "keywords": [
         "Private",
         "Auto",
         "Caption",
         "Bot"
     ],
-    "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-    "repository": "https://github.com/PR0FESS0R-99/PrivateAutoCaption",
-    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "website": "https://youtube.com/channel/UC4sW04as2P-N6bP5D8E89qQ",
+    "repository": "https://github.com/Rafeeq-99/PrivateAutoCaption",
+    "success_url": "https://youtube.com/channel/UC4sW04as2P-N6bP5D8E89qQ",
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org or @MT_MyTelegramOrg_Bot",
