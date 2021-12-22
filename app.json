@@ -20,7 +20,7 @@
             "description": "Your API Hash From my.telegram.org or @MT_MyTelegramOrg_Bot",
             "value": ""
         },
-        "MT_BOT_TOKEN": {
+        "MRKT_BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
