@@ -18,4 +18,4 @@ if __name__ == "__main__" :
         plugins=plugins,
         workers=300
     )
-    MoTech.run()
+    MrktTech.run()
