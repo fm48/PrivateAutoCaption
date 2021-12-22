@@ -11,7 +11,7 @@ USERNAME=Config.BOT_USERNAME
 
 
 # start_Msg, help_msg, about_msg
-# Team Mo Tect
+# Team Mrkt Tech
 MT = "@Mrkt_Tech"
 
 
@@ -40,7 +40,7 @@ async def callback_data(client, update: CallbackQuery):
             InlineKeyboardButton("🖥️ Tutorial Video 🖥️", url="https://youtu.be/p4Z9ZN1lZUk")
             ],[
             InlineKeyboardButton("🏠Home", url=f"https://t.me/{USERNAME}?start=start"),
-            InlineKeyboardButton("❌️Close", callback_data="motech"),
+            InlineKeyboardButton("❌️Close", callback_data="MrktTech"),
             InlineKeyboardButton("About↗️", callback_data="about")
             ]]
     
