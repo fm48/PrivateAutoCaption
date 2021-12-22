@@ -1,4 +1,4 @@
-# MRKT TECH
+# Mo Tech YT
 
 import os
 import logging
@@ -10,7 +10,7 @@ if __name__ == "__main__" :
     plugins = dict(
         root="mt_privateautocaption"
     )
-    MRKTTECH = pyrogram.Client(
+    MrktTech = pyrogram.Client(
         "CaptionBot",
         bot_token=Config.MRKT_BOT_TOKEN,
         api_id=Config.API_ID,
@@ -18,4 +18,4 @@ if __name__ == "__main__" :
         plugins=plugins,
         workers=300
     )
-    MRKTTECH.run()
+    MrktTech.run()
